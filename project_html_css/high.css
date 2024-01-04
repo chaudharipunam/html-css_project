@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("ama.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+#one{
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+#two{
+    font-size: 1rem;
+    margin-left: 3px;
+    font-weight: 600;
+}
+
+.add-icon{
+    display: flex;
+    align-items:end;
+}
+
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(241, 185, 80);
+    width: 680px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.search-select{
+    background-color: #e3ecec;
+    width: 60px;
+    text-align: center;
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px ;
+    border: none;
+}
+
+.search-input{
+    width: 600px;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#s-text{
+    font-size: 13px;
+}
+
+
+
+span{
+    font-size: 0.70rem;
+}
+
+
+.search-select2{
+    font-size: 0.80rem;
+    font-weight: 700;
+}
+
+
+.nav-search:hover{
+    border: 2px solid rgb(255, 136, 0);
+}
+
+
+/*selector--(.nav-cart i {}) it is use for icon in/of the div*/
+.nav-cart i {
+    font-size: 30px;
+}
+
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.panel-all i {
+    font-size: 20px;
+}
+
+
+.panel-option p{
+    display: inline;
+    font-size: 15px;
+    margin-left: 13px;
+    
+}
+
+.panel-option{
+    width: 70%;
+}
+
+
+.panel-deal{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.back-pic{
+    background-image: url("am_pic.jpg");
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+   
+}
+
+.small-box{
+    height: 40px;
+    width: 80%;
+    background-color:#f5f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .85rem;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.small-box a{
+    font-size: .85rem;
+    color: #007185;
+}
+
+
+.big-pic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #AAD9BB;
+}
+
+
+.box{
+    height: 400px;
+    
+    width: 23%;
+    background-color:white;
+    margin-left: 10px;
+    font-weight: 700;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+
+.back-img{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+
+.box-content{
+    margin-left: 16px;
+    margin-right: 1rem;
+}
+
+
+.box-content p {
+    font-size: 12px;
+    color: #007185;
+    font-weight: 200;
+}
+
+
+footer{
+    margin-top: 15px;
+}
+
+
+.end-panel1{
+    height: 50px;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.end-panel2{
+    height: 500px;
+    background-color: #232f3e;
+    color: #dddddd;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.end-panel2 a{
+    display: block;
+    margin-top: 10px;
+    font-size: 0.85rem;
+}
+
+.end-panel2 ul{
+    display: block;
+    margin-top: 47px;
+
+}
+
+.end-panel2 p {
+    font-weight: 700;
+}
+
+
+.end-panel3 {
+    height: 70px;
+    background-color:  #232f3e;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dddddd;
+}
+
+
+.logo{
+    background-image: url("ama.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+/*
+.langua{
+    height: 30px;
+    width: 100px;
+    background-color: #232f3e;
+    border: 1px solid white;
+    color: #dddddd;
+}
+*/
+
+
+.end-panel4{
+    background-color: #0f1111;
+    color: white;
+    font-size: 0.70rem;
+    height: 80px;
+    text-align: center;
+}
+
+
+.pages{
+    padding-top: 20px;
+}
+
+.copyright{
+    padding-top: 7px;
+}
